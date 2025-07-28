@@ -21,7 +21,7 @@ De funcionar correctamente recibirá una respuesta con el siguiente formato:
 > { "resumen": "El resumen resultante dado el texto inicial." }
 
 ## API KEY
-Para la obtención de la API key de Anthropic se deberá dirigir a _https://console.anthropic.com_ y crearse una cuenta en la plataforma. Una vez hecho, se deberá dirigir a Settings (configuración), API keys y crear una se propia API key (nótese que en situaciones convencionales, su cuenta no contará con creditos para utilizar esta API key).
+Para la obtención de la API key de Anthropic se deberá dirigir a _https://console.anthropic.com_ y crearse una cuenta en la plataforma. Una vez hecho, se deberá dirigir a Settings (configuración), API keys y crear su propia API key (nótese que en situaciones convencionales, su cuenta no contará con creditos para utilizar esta API key).
 
 Para la utlización de la API en entorno local se precisará crear un archivo .env agregando dentro la API key de la siguiente manera:
 > API_KEY="su API key propia para Claude"
